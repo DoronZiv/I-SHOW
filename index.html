@@ -48,10 +48,7 @@
 
     <!-- Load the extensions file and initialize Voiceflow -->
     <script type="module">
-        import { ImageUploadExtension, 
-                 FeedbackExtension,
-                 FormExtension,
-                 ConfettiExtension } from './extensions.js';
+        import { } from './extensions.js';
 
                        // Initialize Voiceflow Chatbot
                 (function(d, t) {
@@ -65,10 +62,7 @@
                               url: "https://runtime-api.voiceflow.com"
                             },
                             assistant: {
-                                extensions: [ImageUploadExtension, 
-                                            FeedbackExtension, 
-                                            FormExtension,
-                                            ConfettiExtension],  
+                                extensions: [],  
                             },
                             // Automatically open the chatbot when it loads
                             autoOpen: true   
